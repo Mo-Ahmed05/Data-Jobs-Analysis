@@ -20,5 +20,5 @@ DF['job_skills'] = DF['job_skills'].apply(lambda x: ast.literal_eval(x) if type(
 
 DF['yearly_salary_avg'] = DF['salary_year_avg'].fillna(DF['salary_hour_avg'] * 40 * 52)
 
-DF = DF[(DF['yearly_salary_avg'].notna()) & 
-        (DF['job_title_short'].isin(['Data Analyst', 'Data Scientist', 'Data Engineer']))]
+# DF = DF[(DF['yearly_salary_avg'].notna()) & 
+#         (DF['job_title_short'].isin(['Data Analyst', 'Data Scientist', 'Data Engineer']))]
