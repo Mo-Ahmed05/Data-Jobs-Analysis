@@ -14,8 +14,8 @@ This analysis explores the `lukebarousse/data_jobs` dataset to answer the follow
 - Which countries offer the highest salaries for data professionals?
 - Which skills are most in-demand for each role, and how do they correlate with median salaries?
 
-
 ---
+
 # 🛠️ Tools I Used
 
 - **Python**: Core programming language.
@@ -29,6 +29,7 @@ This analysis explores the `lukebarousse/data_jobs` dataset to answer the follow
 - **AI Tools**: ChatGPT and Google Gemini
 
 ---
+
 # Data Cleanup
 
 ```python
