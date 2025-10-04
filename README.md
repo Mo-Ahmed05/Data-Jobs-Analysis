@@ -4,6 +4,18 @@ This project provides a data-driven analysis of the job market for Data Analysts
 
 ---
 
+# 🔑 Key Questions Answered
+
+This analysis explores the `lukebarousse/data_jobs` dataset to answer the following questions:
+
+- What is the best paid job?
+- How prevalent are work-from-home opportunities in the data industry?
+- Is degree a common requirement for landing a data job?
+- Which countries offer the highest salaries for data professionals?
+- Which skills are most in-demand for each role, and how do they correlate with median salaries?
+
+---
+
 # 🛠️ Tools I Used
 
 - **Python**: Core programming language.
@@ -43,40 +55,29 @@ DF['job_skills'] = DF['job_skills'].apply(lambda x: ast.literal_eval(x) if type(
 
 DF['yearly_salary_avg'] = DF['salary_year_avg'].fillna(DF['salary_hour_avg'] * 40 * 52)
 ```
----
-
-# 🔑 Key Questions Answered
-
-This analysis explores the `lukebarousse/data_jobs` dataset to answer the following questions:
-
-- What is the best paid job?
-- How prevalent are work-from-home opportunities in the data industry?
-- Is degree a common requirement for landing a data job?
-- Which countries offer the highest salaries for data professionals?
-- Which skills are most in-demand for each role, and how do they correlate with median salaries?
 
 ---
 
 # Explore what the data contains
-View my notebook with detaild steps here: [Explore_the_Data](Explore_the_Data.ipynb)
+View my notebook with detaild steps here: [Explore the Data](Explore_the_Data.ipynb)
 
 ## What countries does the dataset depend on?
-![mo](Images\countries.png)
+![Countries](Images\countries.png)
 
 Most of the job postings is from **United States** with more than 200k job posting.
 
 ## What jobs does the dataset contains?
-![mo](Images\job_postings.png)
+![Job Postings](Images\job_postings.png)
 
 **Data Analyst - Data Engineer - Data Scientist** have the biggest number of job postings in the data.
 
 ## What is the date of the dataset?
-![mo](Images\date.png)
+![Date](Images\date.png)
 
 All the data is from **2023**
 
 ## What salary rates does the dataset contains?
-![mo](Images\salary_rate.png)
+![Salary Rates](Images\salary_rate.png)
 
 Most of salary rates is **yearly** in the 1st place and **hourly** in the 2nd palce
 
@@ -96,7 +97,7 @@ View my notebook with detaild steps here
 [Salaries](Salaries.ipynb)
 
 ### Result
-![My_Image](Images\salaries.png)
+![Salaries](Images\salaries.png)
 
 ### Insights
 - Highest Median Salaries: The roles with the highest median (middle line in the box) salaries appear to be Senior Data Scientist and Senior Data Engineer. They both seem to have a median salary around the $150K mark.
@@ -110,10 +111,10 @@ View my notebook with detaild steps here
 
 ## 2. How prevalent are work-from-home opportunities in the data industry?
 View my notebook with detaild steps here:
-[Work_from_Home](Work_from_Home.ipynb)
+[Work from Home](Work_from_Home.ipynb)
 
 ### Result
-![My_Image](Images\Work_from_Home.png)
+![Work from Home](Images\Work_from_Home.png)
 
 ### Insights
 - Low Overall Work from Home Prevalence: Across all three data-related job titles, the proportion of roles offering Work from Home is relatively low, with the "True" (Work from Home available) percentage never exceeding 11.4%.
@@ -129,10 +130,10 @@ View my notebook with detaild steps here:
 
 ## 3. Is degree a common requirement for landing a data job?
 View my notebook with detaild steps here:
-[No_Degree](No_Degree.ipynb)
+[No Degree](No_Degree.ipynb)
 
 ### Result
-![My_Image](Images/no_degree.png)
+![No Degree](Images/no_degree.png)
 
 ### Insights
 - Degree Mention Varies Significantly by Role: There is a stark difference in degree requirements (or mention thereof) between the Data Scientist role and the other two roles (Data Analyst and Data Engineer).
@@ -151,7 +152,7 @@ View my notebook with detaild steps here:
 [Top_Countries](Top_Countries.ipynb)
 
 ### Result
-![My_Image](Images/top_countries.png)
+![Top Countries](Images/top_countries.png)
 
 ### Insights
 - Geographic Diversity: No single country dominates the top salary position across all three roles, highlighting diverse global market conditions.
@@ -166,11 +167,11 @@ View my notebook with detaild steps here:
 
 ## 5. Which skills are most in-demand for each role, and how do they correlate with median salaries?
 View my notebook with detaild steps here:
-[Skills_Salaries](Skills_Salaries.ipynb)
+[Skills vs Salaries](Skills_Salaries.ipynb)
 
 ### Data Analyst
 #### Result
-![My_Image](Images/skills_analyst.png)
+![Analysts Top Skills](Images/skills_analyst.png)
 
 #### Insights
 - High Demand for Foundational Skills: The most highly demanded skills for a Data Analyst are SQL (57.99%) and Excel (41.95%). This indicates that foundational data manipulation, querying, and spreadsheet analysis remain essential and are the most frequently required competencies for the role.
@@ -180,7 +181,7 @@ View my notebook with detaild steps here:
 
 ### Data Engineer
 #### Result
-![My_Image](Images/skills_engineer.png)
+![Engineers Top Skills](Images/skills_engineer.png)
 
 #### Insights
 - Dominance of Foundational Programming/Querying: SQL (66.8%) and Python (63.78%) are the overwhelmingly most demanded skills for a Data Engineer, with both being required in nearly two-thirds of job postings. This highlights their status as universal prerequisites for data manipulation, scripting, and development in this field.
@@ -190,7 +191,7 @@ View my notebook with detaild steps here:
 
 ### Data Scientist
 #### Result
-![My_Image](Images/skills_scientist.png)
+![Scientists Top Skills](Images/skills_scientist.png)
 
 #### Insights
 - Python is the Overwhelming Core Requirement: Python is the single most demanded skill for a Data Scientist, featured in nearly 78% of job postings (77.99%). This makes Python a near-universal prerequisite, reinforcing its position as the standard language for machine learning, statistical modeling, and general data manipulation in the Data Science field.
