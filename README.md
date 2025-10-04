@@ -4,44 +4,6 @@ This project provides a data-driven analysis of the job market for Data Analysts
 
 ---
 
-# Explore what the data contains
-View my notebook with detaild steps here: [Explore_the_Data](Explore_the_Data.ipynb)
-
-## What countries does the dataset depend on?
-![mo](Images\countries.png)
-
-Most of the job postings is from **United States** with more than 200k job posting.
-
-## What jobs does the dataset contains?
-![mo](Images\job_postings.png)
-
-**Data Analyst - Data Engineer - Data Scientist** have the biggest number of job postings in the data.
-
-## What is the date of the dataset?
-![mo](Images\date.png)
-
-All the data is from **2023**
-
-## What salary rates does the dataset contains?
-![mo](Images\salary_rate.png)
-
-Most of salary rates is **yearly** in the 1st place and **hourly** in the 2nd palce
-
-All the data is from **2023**
-
----
-# 🔑 Key Questions Answered
-
-This analysis explores the `lukebarousse/data_jobs` dataset to answer the following questions:
-
-- What is the best paid job?
-- How prevalent are work-from-home opportunities in the data industry?
-- Is degree a common requirement for landing a data job?
-- Which countries offer the highest salaries for data professionals?
-- Which skills are most in-demand for each role, and how do they correlate with median salaries?
-
----
-
 # 🛠️ Tools I Used
 
 - **Python**: Core programming language.
@@ -81,6 +43,49 @@ DF['job_skills'] = DF['job_skills'].apply(lambda x: ast.literal_eval(x) if type(
 
 DF['yearly_salary_avg'] = DF['salary_year_avg'].fillna(DF['salary_hour_avg'] * 40 * 52)
 ```
+---
+
+# 🔑 Key Questions Answered
+
+This analysis explores the `lukebarousse/data_jobs` dataset to answer the following questions:
+
+- What is the best paid job?
+- How prevalent are work-from-home opportunities in the data industry?
+- Is degree a common requirement for landing a data job?
+- Which countries offer the highest salaries for data professionals?
+- Which skills are most in-demand for each role, and how do they correlate with median salaries?
+
+---
+
+# Explore what the data contains
+View my notebook with detaild steps here: [Explore_the_Data](Explore_the_Data.ipynb)
+
+## What countries does the dataset depend on?
+![mo](Images\countries.png)
+
+Most of the job postings is from **United States** with more than 200k job posting.
+
+## What jobs does the dataset contains?
+![mo](Images\job_postings.png)
+
+**Data Analyst - Data Engineer - Data Scientist** have the biggest number of job postings in the data.
+
+## What is the date of the dataset?
+![mo](Images\date.png)
+
+All the data is from **2023**
+
+## What salary rates does the dataset contains?
+![mo](Images\salary_rate.png)
+
+Most of salary rates is **yearly** in the 1st place and **hourly** in the 2nd palce
+
+All the data is from **2023**
+
+## Notes:
+- "Note: Since the majority of data is from the U.S. and 2023, these salary figures may be skewed toward the U.S. market and are representative of a specific time period."
+- 95.8% of the data has no valid salary rate
+
 ---
 
 # 📊 The Analysis
