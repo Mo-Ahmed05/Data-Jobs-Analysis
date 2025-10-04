@@ -90,7 +90,7 @@ Most of salary rates is **yearly** in the 1st place and **hourly** in the 2nd pa
 # 📊 The Analysis
 
 
-## What is the most paid job?
+## 1. What is the most paid job?
 View my notebook with detaild steps here
 [Salaries](Salaries.ipynb)
 
