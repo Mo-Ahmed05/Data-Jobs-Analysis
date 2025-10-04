@@ -112,7 +112,7 @@ View my notebook with detaild steps here:
 [Work from Home](Work_from_Home.ipynb)
 
 ### Result
-![Work from Home](Images/Work_from_Home.png)
+![Work from Home](Images/work_from_home.png)
 
 ### Insights
 - Low Overall Work from Home Prevalence: Across all three data-related job titles, the proportion of roles offering Work from Home is relatively low, with the "True" (Work from Home available) percentage never exceeding 11.4%.
