@@ -81,10 +81,8 @@ All the data is from **2023**
 
 Most of salary rates is **yearly** in the 1st place and **hourly** in the 2nd palce
 
-All the data is from **2023**
-
 ## Notes:
-- "Note: Since the majority of data is from the U.S. and 2023, these salary figures may be skewed toward the U.S. market and are representative of a specific time period."
+- Since the majority of data is from the U.S. and 2023, these salary figures may be skewed toward the U.S. market and are representative of a specific time period."
 - 95.8% of the data has no valid salary rate
 
 ---
