@@ -62,22 +62,22 @@ DF['yearly_salary_avg'] = DF['salary_year_avg'].fillna(DF['salary_hour_avg'] * 4
 View my notebook with detaild steps here: [Explore the Data](Explore_the_Data.ipynb)
 
 ## What countries does the dataset depend on?
-![Countries](Images\countries.png)
+![Countries](Images/countries.png)
 
 Most of the job postings is from **United States** with more than 200k job posting.
 
 ## What jobs does the dataset contains?
-![Job Postings](Images\job_postings.png)
+![Job Postings](Images/job_postings.png)
 
 **Data Analyst - Data Engineer - Data Scientist** have the biggest number of job postings in the data.
 
 ## What is the date of the dataset?
-![Date](Images\date.png)
+![Date](Images/date.png)
 
 All the data is from **2023**
 
 ## What salary rates does the dataset contains?
-![Salary Rates](Images\salary_rate.png)
+![Salary Rates](Images/salary_rate.png)
 
 Most of salary rates is **yearly** in the 1st place and **hourly** in the 2nd palce
 
@@ -97,7 +97,7 @@ View my notebook with detaild steps here
 [Salaries](Salaries.ipynb)
 
 ### Result
-![Salaries](Images\salaries.png)
+![Salaries](Images/salaries.png)
 
 ### Insights
 - Highest Median Salaries: The roles with the highest median (middle line in the box) salaries appear to be Senior Data Scientist and Senior Data Engineer. They both seem to have a median salary around the $150K mark.
@@ -114,7 +114,7 @@ View my notebook with detaild steps here:
 [Work from Home](Work_from_Home.ipynb)
 
 ### Result
-![Work from Home](Images\Work_from_Home.png)
+![Work from Home](Images/Work_from_Home.png)
 
 ### Insights
 - Low Overall Work from Home Prevalence: Across all three data-related job titles, the proportion of roles offering Work from Home is relatively low, with the "True" (Work from Home available) percentage never exceeding 11.4%.
