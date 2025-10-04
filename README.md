@@ -4,6 +4,32 @@ This project provides a data-driven analysis of the job market for Data Analysts
 
 ---
 
+# Explore what the data contains
+View my notebook with detaild steps here: [Explore_the_Data](Explore_the_Data.ipynb)
+
+## What countries does the dataset depend on?
+![mo](Images\countries.png)
+
+Most of the job postings is from **United States** with more than 200k job posting.
+
+## What jobs does the dataset contains?
+![mo](Images\job_postings.png)
+
+**Data Analyst - Data Engineer - Data Scientist** have the biggest number of job postings in the data.
+
+## What is the date of the dataset?
+![mo](Images\date.png)
+
+All the data is from **2023**
+
+## What salary rates does the dataset contains?
+![mo](Images\salary_rate.png)
+
+Most of salary rates is **yearly** in the 1st place and **hourly** in the 2nd palce
+
+All the data is from **2023**
+
+---
 # 🔑 Key Questions Answered
 
 This analysis explores the `lukebarousse/data_jobs` dataset to answer the following questions:
@@ -62,7 +88,7 @@ DF['yearly_salary_avg'] = DF['salary_year_avg'].fillna(DF['salary_hour_avg'] * 4
 
 ## What is the most paid job?
 View my notebook with detaild steps here
-[Salaries.ipynb](Salaries.ipynb)
+[Salaries](Salaries.ipynb)
 
 ### Result
 ![My_Image](Images\salaries.png)
@@ -79,7 +105,7 @@ View my notebook with detaild steps here
 
 ## 2. How prevalent are work-from-home opportunities in the data industry?
 View my notebook with detaild steps here:
-[Work_from_Home.ipynb](Work_from_Home.ipynb)
+[Work_from_Home](Work_from_Home.ipynb)
 
 ### Result
 ![My_Image](Images\Work_from_Home.png)
@@ -98,7 +124,7 @@ View my notebook with detaild steps here:
 
 ## 3. Is degree a common requirement for landing a data job?
 View my notebook with detaild steps here:
-[No_Degree.ipynb](No_Degree.ipynb)
+[No_Degree](No_Degree.ipynb)
 
 ### Result
 ![My_Image](Images/no_degree.png)
@@ -117,7 +143,7 @@ View my notebook with detaild steps here:
 
 ## 4. Which countries offer the highest salaries for data professionals?
 View my notebook with detaild steps here:
-[Top_Countries.ipynb](Top_Countries.ipynb)
+[Top_Countries](Top_Countries.ipynb)
 
 ### Result
 ![My_Image](Images/top_countries.png)
@@ -135,7 +161,7 @@ View my notebook with detaild steps here:
 
 ## 5. Which skills are most in-demand for each role, and how do they correlate with median salaries?
 View my notebook with detaild steps here:
-[Skills_Salaries.ipynb](Skills_Salaries.ipynb)
+[Skills_Salaries](Skills_Salaries.ipynb)
 
 ### Data Analyst
 #### Result
