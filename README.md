@@ -34,7 +34,7 @@ The dataset can be accessed here: https://huggingface.co/datasets/lukebarousse/d
 
 ---
 
-# Data Cleanup
+# Data Loading & Cleanup
 
 ```python
 import numpy as np
